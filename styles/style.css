@@ -46,7 +46,7 @@
   margin-top: 20px;
 }
 
-.banner-text-content button {
+.primary-btn {
   border-radius: 8px;
   background: rgb(229, 84, 115);
   padding: 20px 43px 20px 43px;
@@ -130,17 +130,168 @@
   border-radius: 50% 50% 0 0;
 }
 
-.first-image img{
-    /* margin-top: 100px; */
+.first-image img {
+  /* margin-top: 100px; */
 }
-#first{
-  background-color:#F2DEE8 ;  
-}
-
-#second{
-    background-color: #daf0f1;
+#first {
+  background-color: #f2dee8;
 }
 
-#third{
-    background-color: #e4ecdc;
+#second {
+  background-color: #daf0f1;
 }
+
+#third {
+  background-color: #e4ecdc;
+}
+
+/* featured end */
+
+/* service start */
+
+.service-container {
+  width: 90%;
+  height: 320px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+}
+
+.first-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33.3%;
+  /* border: 2px solid yellow; */
+  height: 100%;
+}
+
+.second-part {
+  width: 33.3%;
+  /* border: 2px solid green; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.third-part {
+  width: 33.3%;
+  height: 100%;
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.third-part,
+.second-part,
+.first-part h4 {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  /* line-height: 35px; */
+
+  text-align: center;
+}
+/* service end */
+/* hot deal start */
+.hot-deal-container {
+  margin-top: 80px;
+  /* border: 2px solid red; */
+  max-width: 1260px;
+  height: 500px;
+  border-radius: 8px;
+
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hd-text-content {
+  width: 60%;
+  /* border: 2px solid green; */
+  height: 228px;
+}
+
+.hd-text-content h1 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.hd-text-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hd-text-content button {
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  padding: 20px 43px 20px 43px;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+.hd-image-content {
+  width: 40%;
+  /* border: 2px solid yellow; */
+  margin-left: 100px;
+  /* height: 420x; */
+}
+
+.hd-image-content img {
+  margin-top: 50px;
+}
+/* hot deal end */
+
+/* Instagram */
+.instagram-container {
+  width: 90%;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.instagram-image {
+  display: flex;
+  gap: 15px;
+  width: 342px;
+  margin-top: 50px;
+
+}
+
+.instagram-image img{
+  width: 80%;
+  height: 80%;
+}
+
+/* Instagram end */
